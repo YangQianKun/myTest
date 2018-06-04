@@ -1,4 +1,12 @@
-demo:
-  title: "default title"
-hahah
-fasdfa
+spring:
+  application:
+    name: config-server
+  profiles:
+      active: server1
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/YangQianKun/myTest
+          username: 1043017420@qq.com
+          password: yang1124
